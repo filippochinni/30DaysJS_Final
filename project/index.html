@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Countries Data - Final</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">World Countries Data</h1>
+        <p id="subtitle"></p>
+		<p id="feedback"></p>
+    </header>
+
+    <div id="inputDiv">
+        <input id="searchBar" type="text"/>
+
+        <div id="searchButtonsDiv">
+            <button id="searchNameButton" class="searchButton">Ricerca per Nazione</button>
+            <button id="searchCapitalButton" class="searchButton">Ricerca per Capitale</button>
+            <button id="searchLanguage" class="searchButton">Ricerca per Lingua</button>
+        </div>
+
+        <div id="sortButtonsDiv">
+            <button id="sortNameButton" class="sortButton">Nazione
+                <img class="arrowImage"/>
+            </button>
+            <button id="sortCapitalButton" class="sortButton">Capitale
+                <img class="arrowImage"/>
+            </button>
+            <button id="sortPopulationButton" class="sortButton">Popolazione
+                <img class="arrowImage"/>
+            </button>
+        </div>
+
+        <button id="graphShowButton"></button>
+    </div>
+
+    <div id="countriesDiv">
+
+    </div>
+
+    <div id="graphDiv">
+        <button id="graphCloseButton"></button>
+
+        <div id="graphButtonsDiv">
+            <button id="graphPopulationButton" class="graphButton">Popolazione</button>
+            <button id="graphLanguagesButton" class="graphButton">Lingue</button>
+        </div>
+
+        <p id="graphTitle"></p>
+
+        <div id="graph">
+
+        </div>
+    </div>
+
+
+    <script src="./eserciziGiorno30.js"></script>
+</body>
+</html>
